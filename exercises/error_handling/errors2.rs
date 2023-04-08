@@ -29,7 +29,7 @@ pub fn total_cost(item_quantity: &str) -> Result<i32, ParseIntError> {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::total_cost;
 
     #[test]
     fn item_quantity_is_a_valid_number() {
